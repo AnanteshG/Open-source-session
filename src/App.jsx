@@ -28,7 +28,7 @@ const ContributorGrid = () => {
   const contributors = [
      { name: "Kavi Varsha", imageUrl: "public\images\kavivarsha.png" },
     // Add more contributors here
-    ...Array(49).fill({ name: "", imageUrl: "" }) // Fill the rest with empty boxes
+    ...Array(49).fill({ name: "shubham", imageUrl: "public/images/geek-circuit-boards-pcb-wallpaper-924b8a25022e0972ad5648e6e1262ddb.jpg" }) // Fill the rest with empty boxes
   ];
 
   return (
