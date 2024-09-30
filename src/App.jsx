@@ -12,7 +12,7 @@ const ContributorBox = ({ name, imageUrl, darkMode }) => (
     </div>
     <input
       type="text"
-      placeholder="Your Name"
+      placeholder="your name"
       value={name}
       readOnly
       className={`mt-2 w-full px-3 py-2 text-sm ${darkMode ? 'text-gray-200 bg-gray-800' : 'text-gray-700 bg-white'} placeholder-gray-400 border ${darkMode ? 'border-gray-600' : 'border-gray-300'} rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500`}
@@ -28,7 +28,7 @@ const ContributorGrid = () => {
   const contributors = [
      { name: "Kavi Varsha", imageUrl: "public\images\kavivarsha.png" },
     // Add more contributors here
-    ...Array(49).fill({ name: "", imageUrl: "" }) // Fill the rest with empty boxes
+    ...Array(49).fill({ name: "shama", imageUrl: "public/images/image_1.jpg" }) // Fill the rest with empty boxes
   ];
 
   return (
