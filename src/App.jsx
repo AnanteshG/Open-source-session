@@ -28,6 +28,7 @@ const ContributorGrid = () => {
   const contributors = [
     // { name: "Anantesh G", imageUrl: "/images/pfp.jpg" },
     // Add more contributors here
+    {name:"Monish E",imageUrl:"public/images/img1.jpg"},
     ...Array(49).fill({ name: "", imageUrl: "" }) // Fill the rest with empty boxes
   ];
 
